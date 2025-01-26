@@ -103,10 +103,17 @@
         // Smooth scroll effect when leaving the logo screen
         window.addEventListener("DOMContentLoaded", () => {
             const logoScreen = document.getElementById("logo-screen");
+            if (!logoScreen) {
+                console.error("Logo screen element not found.");
+                return;
+            }
+            console.log("Logo screen element found. Initializing transition...");
             setTimeout(() => {
+                console.log("Starting fade-out effect for logo screen.");
                 logoScreen.style.transition = "opacity 1s";
                 logoScreen.style.opacity = "0";
                 setTimeout(() => {
+                    console.log("Hiding logo screen after fade-out.");
                     logoScreen.style.display = "none";
                 }, 1000);
             }, 2000);
