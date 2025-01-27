@@ -22,7 +22,7 @@
         }
 
         .logo-screen img {
-            max-width: 200px;
+            max-width: 400px;
         }
 
         .content {
@@ -61,7 +61,7 @@
         }
 
         .contacts a {
-            color: #76c7c0;
+            color: #1a454e;
             text-decoration: none;
         }
 
