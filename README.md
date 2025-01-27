@@ -23,6 +23,7 @@
 
         .logo-screen img {
             max-width: 400px;
+            background-color: transparent; 
         }
 
         .content {
