@@ -74,7 +74,7 @@
 <body>
     <!-- Logo Screen -->
     <div class="logo-screen" id="logo-screen">
-        <img src="Logo Mio Definitivo_BW.png" alt="Logo" id="logo">
+        <img src="Logo Mio Definitivo_BW.png" alt="Logo.png" id="logo.png">
     </div>
 
     <!-- Content Section -->
