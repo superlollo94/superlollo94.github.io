@@ -82,10 +82,10 @@
         <p>Benvenuto nel mio spazio online</p>
 
         <!-- Gallery Section -->
-        <div class="gallery">
-            <img src="project1.jpg" alt="Progetto 1">
-            <img src="project2.jpg" alt="Progetto 2">
-            <img src="project3.jpg" alt="Progetto 3">
+        <div class="gallery" id="gallery">
+            <img src="project1.jpg" alt="Progetto 1" id="gallery.png">
+            <img src="project2.jpg" alt="Progetto 2" id="gallery.png">
+            <img src="project3.jpg" alt="Progetto 3" id="gallery.png">
         </div>
 
         <!-- Contacts Section -->
